@@ -22,7 +22,7 @@
 
 ## Download Software
 
-1. Download [CentOS 8 x86_64 image](https://www.centos.org/centos-linux/)
+1. Download [CentOS x86_64 image](https://www.centos.org/download/)
 1. Login to [RedHat OpenShift Cluster Manager](https://cloud.redhat.com/openshift)
 1. Select 'Create Cluster' from the 'Clusters' navigation menu
 1. Select 'RedHat OpenShift Container Platform'
@@ -131,10 +131,10 @@
    dnf install git -y
    ```
 
-1. Download [config files](https://github.com/ryanhay/ocp4-metal-install) for each of the services
+1. Download [config files](https://github.com/SeifEldinXP/Openshift-4-UPI-Installation-Bare-Metal) for each of the services
 
    ```bash
-   git clone https://github.com/ryanhay/ocp4-metal-install
+   git clone https://github.com/SeifEldinXP/Openshift-4-UPI-Installation-Bare-Metal
    ```
 
 1. OPTIONAL: Create a file '~/.vimrc' and paste the following (this helps with editing in vim, particularly yaml files):
